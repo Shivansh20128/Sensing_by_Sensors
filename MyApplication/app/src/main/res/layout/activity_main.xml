@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Text view to display sensor status-->
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Turn on/off a sensor"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/rotationDegrees"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_below="@+id/heading"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="321dp"
+        android:layout_marginBottom="301dp"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/rotationDirection"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:layout_below="@+id/heading"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="427dp"
+        android:layout_marginBottom="83dp"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/proximity_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="599dp"
+        android:text="Proximity Sensor"
+        android:textSize="30sp" />
+
+    <ToggleButton
+        android:id="@+id/proximityToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/heading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="597dp"
+        android:text="ToggleButton"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/rotation_vector_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/heading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="501dp"
+        android:text="Rotation Vector Sensor"
+        android:textStyle="bold"
+        android:textSize="21sp" />
+
+    <ToggleButton
+        android:id="@+id/rotationVectorToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/heading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="497dp"
+        android:text="ToggleButton"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/light_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/heading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="408dp"
+        android:text="Light Sensor"
+        android:textSize="30sp" />
+
+    <ToggleButton
+        android:id="@+id/lightToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/heading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="404dp"
+        android:text="ToggleButton"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>
